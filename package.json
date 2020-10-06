@@ -4,6 +4,7 @@
   "description": "STL models viewer",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,10 @@
   "homepage": "https://github.com/elemus/stl-viewer#readme",
   "dependencies": {
     "three": "^0.121.1"
+  },
+  "devDependencies": {
+    "file-loader": "^6.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   }
 }

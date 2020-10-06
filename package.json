@@ -1,0 +1,26 @@
+{
+  "name": "stl-viewer",
+  "version": "1.0.0",
+  "description": "STL models viewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elemus/stl-viewer.git"
+  },
+  "keywords": [
+    "three",
+    "stl"
+  ],
+  "author": "Serhii Atiahin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elemus/stl-viewer/issues"
+  },
+  "homepage": "https://github.com/elemus/stl-viewer#readme",
+  "dependencies": {
+    "three": "^0.121.1"
+  }
+}
